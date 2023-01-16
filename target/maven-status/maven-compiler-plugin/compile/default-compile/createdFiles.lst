@@ -1,0 +1,7 @@
+PageLayer\RegisterPage.class
+UtilsLayer\UtilsClass.class
+PageLayer\RegisterSucess.class
+UtilsLayer\ListenerClass.class
+UtilsLayer\DropDownMethods.class
+UtilsLayer\ExtentReportClass.class
+com\BaseLayer\BaseClass.class
