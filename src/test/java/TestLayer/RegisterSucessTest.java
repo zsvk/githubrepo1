@@ -31,5 +31,24 @@ public class RegisterSucessTest extends BaseClass {
 	public void validateEmailId() {
 		Assert.assertEquals(true, registersucess.captureUsername().contains(prop.getProperty("uname")));
 	}
+	
+	
+	@Test
+	public void abc()
+	{
+		Assert.assertEquals(true, true);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 }
