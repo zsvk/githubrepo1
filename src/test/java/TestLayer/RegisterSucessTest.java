@@ -40,7 +40,12 @@ public class RegisterSucessTest extends BaseClass {
 	}
 	
 	
-	
+
+	@Test
+	public void xyz()
+	{
+		Assert.assertEquals(true, true);
+	}
 	
 	
 	
