@@ -33,8 +33,7 @@ public class BaseClass {
 	public static void iniliazation(String browsername) {
 
 		if (browsername.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver",
-					System.getProperty("user.dir") + "//AllDrivers//chromedriver.exe");
+			WebDriverManager.chromedriver().setUp();
 
 			driver = new ChromeDriver();
 		} else if (browsername.equals("edge")) {
