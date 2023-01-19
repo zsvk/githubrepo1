@@ -33,7 +33,7 @@ public class BaseClass {
 	public static void iniliazation(String browsername) {
 
 		if (browsername.equals("chrome")) {
-			WebDriverManager.chromedriver().setUp();
+			WebDriverManager.chromedriver().setup();
 
 			driver = new ChromeDriver();
 		} else if (browsername.equals("edge")) {
