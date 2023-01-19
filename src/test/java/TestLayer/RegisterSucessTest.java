@@ -47,7 +47,12 @@ public class RegisterSucessTest extends BaseClass {
 		Assert.assertEquals(true, true);
 	}
 	
-	
+
+	@Test
+	public void pqr()
+	{
+		Assert.assertEquals(true, true);
+	}
 	
 	
 	
