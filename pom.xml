@@ -101,7 +101,7 @@
 				<version>2.19.1</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>C:\Users\Win\Desktop\Automation 01 Oct 2022 Batch\Automation Script for Oct Batch\FreeCRM3\testng.xml</suiteXmlFile>
+						<suiteXmlFile>../testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
