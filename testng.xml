@@ -6,7 +6,7 @@
 	</listeners>
 
 	<test thread-count="5" name="Register Page Sucess Test Cases">
-		<parameter name="browsers" value="chrome"></parameter>
+		<parameter name="browsers" value="firefox"></parameter>
 		<groups>
 			<run>
 				<include name="RegisterPage"></include>
