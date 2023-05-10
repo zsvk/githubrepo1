@@ -23,7 +23,7 @@ public class ExtentReportClass extends BaseClass {
 	public static ExtentReports setUp() {
 
 		ExtentSparkReporter extentSparkReporter = new ExtentSparkReporter(
-				System.getProperty("user.dir") + "//Reports//" + captureCurrentdateAndTime() + ".html");
+				System.getProperty("user.dir") + "//Reports//" + captureCurrentdateAndTime() + ".txt");
 
 		extentreport = new ExtentReports();
 		extentreport.attachReporter(extentSparkReporter);

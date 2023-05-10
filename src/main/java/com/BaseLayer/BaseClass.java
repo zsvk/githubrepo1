@@ -32,23 +32,11 @@ public class BaseClass {
 
 	public static void iniliazation(String browsername) {
 
-		if (browsername.equals("chrome")) {
-			WebDriverManager.chromedriver().setup();
-
-			driver = new ChromeDriver();
-		} else if (browsername.equals("edge")) {
-			System.setProperty("webdriver.edge.driver",
-					System.getProperty("user.dir") + "//AllDrivers//msedgedriver.exe");
-
-			driver = new EdgeDriver();
-		} else if (browsername.equals("opera")) {
-			WebDriverManager.operadriver().setup();
-			driver = new OperaDriver();
-		}
-		else if(browsername.equals("firefox")) {
+		if (browsername.equals("firefox")) {
 			WebDriverManager.firefoxdriver().setup();
 			driver =new FirefoxDriver();
-		}
+		} 	
+		
 
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
